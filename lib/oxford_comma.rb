@@ -5,7 +5,7 @@ def oxford_comma(array)
     array.join(" and ")
   elsif
     message = array.slice(0..-2).join(", ")
-    message += " and "
+    message += ", and "
     message += array.slice(-1)
     message
   end
